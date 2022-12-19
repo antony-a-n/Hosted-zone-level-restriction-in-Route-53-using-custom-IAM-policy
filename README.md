@@ -1,6 +1,7 @@
-# Hosted zone level restriction in route 53 using custom IAM policy
+# Hosted-zone level restriction in Route 53 using custom IAM policy
 =============================================================================
- By default, you can't give access to to a IAM user to a specific zones.instead you have to create your own custom IAM policy to perform actions on a specific hosted zone in route 53.
+
+ By default, you can't give access to to a IAM user to a specific zone.instead you have to create your own custom IAM policy to perform actions on a specific hosted zone in route 53.
  
  Simply route 53 is the managed DNS service provided by AWS which allows you to purchase domains and manage your domains by creating zones for the domains.
  
@@ -9,6 +10,9 @@
  You can refer to the following images to get a clear idea about this.
  
  
+![diagram](https://user-images.githubusercontent.com/61390678/208521467-7b3dcd56-21eb-4e94-ae5f-ff81b2204fc4.png)
+
+
  
  before proceeding further, you should create a IAM user from the console and you don't need to attach any permissions to the user.
  
@@ -55,6 +59,11 @@ You have to replace the hostedzone ID with your's.
 
 You can find the hosted zoneID by expanding the hosted zone details.
 
+
+![zoneid](https://user-images.githubusercontent.com/61390678/208522588-b116ca36-5355-4688-b21e-502aa4a72ea6.png)
+
+
 In the above example it was Z00807807EZOKH2E86UP, you can replace the value with yours.
+
 
 Congratulations, you have configured the IAM policy successfully.
