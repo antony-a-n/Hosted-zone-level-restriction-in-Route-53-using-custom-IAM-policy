@@ -21,7 +21,7 @@
  
 - ###### login to your AWS console.
 - ###### Create a IAM user with no privilges,(You can add other privileges if you need, in this example we are only allowing the user to view the zones and make changes to only his hosted zone)
-- ###### Add  atgs to the user if required.
+- ###### Add  tags to the user if required.
 - ###### Once you created the user select the user and under the permissions option click on add inline polcy.
 - ###### Choose Json from the list and add the following code.
 ```
