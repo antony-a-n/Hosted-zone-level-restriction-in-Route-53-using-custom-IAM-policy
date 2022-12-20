@@ -7,6 +7,8 @@
  
  In this example the IAM user will be able to view the zones in the account but he won't be able to view /perform actions other than the permitted zone.
  
+ If the IAM user trying to access/view other hosted zones he will be ended up with a error message which denotes "permission issue".
+ 
  You can refer to the following images to get a clear idea about this.
  
  
